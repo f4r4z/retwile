@@ -7,7 +7,7 @@ ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, p, blockquote, fields
  a { color: #b9b9b9; text-decoration: none; -webkit-transition: all 300ms ease; -moz-transition: all 300ms ease; -ms-transition: all 300ms ease; -o-transition: all 300ms ease; transition: all 300ms ease; }
  a:hover { color: #e66a78; }
  a img, a:hover img { border: 5px solid #e66a78; }
- h2 { margin-bottom: 15px; color: #000000; font-family: 'Quattrocento Sans', serif; font-size: 24px; font-weight: 300; line-height: 1.2em; }
+ h2 { margin-bottom: 15px; color: #000000; font-family: 'Quattrocento Sans', sans-serif; font-size: 24px; font-weight: 300; line-height: 1.2em; }
  div.paragraph, div.paragraph { margin-bottom: 10px; line-height: 1.5em; }
  p, div.paragraph { margin-bottom: 10px; line-height: 1.5em; }
  blockquote { font-style: italic; border-left: 4px solid #ddd; margin: 10px 0 10px 0; padding-left: 20px; line-height: 1.5; color: #888; }
