@@ -27,10 +27,10 @@ ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, p, blockquote, fields
  body.affix .cento-header .nav-wrap { position: fixed; top: 0; z-index: 15; border-bottom: 2px solid #f7f7f7; }
  #icontent .container { overflow: visible; }
  .cento-header { position: relative; z-index: 9; width: 100%; background: #f4f4f4; padding: 40px 0 0; box-sizing: border-box; }
- .cento-header .logo { margin-bottom: 20px; }
+ .cento-header .logo { margin-bottom: 20px; text-align: center;}
  .cento-header .logo img { display: block; max-width: 200px; }
  .cento-header .logo #wsite-title { display: block; max-width: 500px; color: #e66a78; font-family: 'Quattrocento Sans', sans-serif; font-size: 27px;}
- .cento-header .logo, .cento-header .logo a { display: block; color: #000000; text-align: center; letter-spacing: .04em; font-family: 'Quattrocento Sans', sans-serif; font-size: 40px; font-weight: 700; line-height: normal; }
+ .cento-header .logo, .cento-header .logo a { display: block; color: #000000; letter-spacing: .04em; font-family: 'Quattrocento Sans', sans-serif; font-size: 40px; font-weight: 700; line-height: normal; }
  .cento-header .nav-wrap {overflow: hidden; width: 100%; padding: 10px 0; background: #e66a78; box-sizing: border-box; backface-visibility: hidden; -webkit-backface-visibility: hidden; }
  .cento-header .hamburger { display: none; }
  .nav { text-align: center;}
