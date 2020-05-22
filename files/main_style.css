@@ -1,6 +1,6 @@
  @font-face {
   font-family: 'Quattrocento Sans';
-  src: url(QuattrocentoSans_Regular/QuattrocentoSans-Regular.ttf) format("truetype");
+  src: url(/QuattrocentoSans_Regular/QuattrocentoSans-Regular.ttf) format("truetype");
 }
 
 ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, div.paragraph, blockquote, fieldset, input { margin: 0; padding: 0; }
