@@ -1,21 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-@import url('http://cdn2.editmysite.com/css/sites.css?buildTime=1234');
-@import url('http://cdn2.editmysite.com/css/old/fancybox.css?1234');
-@import url('http://cdn2.editmysite.com/css/social-icons.css?buildtime=1234') media("screen,projection");
-@import url('http://cdn2.editmysite.com/css/sites.css?buildTime=1234');
-@import url('http://cdn2.editmysite.com/css/sites.css?buildTime=1234');
-@import url('http://cdn2.editmysite.com/css/sites.css?buildTime=1234');
-@import url('http://cdn2.editmysite.com/css/sites.css?buildTime=1234');
-
-
 ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, div.paragraph, blockquote, fieldset, input { margin: 0; padding: 0; }
 ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, p, blockquote, fieldset, input { margin: 0; padding: 0; }
  html { height: 100%; }
- body {width: 100%; height: 100%; background: #e66a78; color: #3e3e3e; font-family: 'Quattrocento Sans', sans-serif; font-size: 16px; font-weight: 400; line-height: 25px; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+ body { width: 100%; height: 100%; background: #ffffff; color: #3e3e3e; font-family: 'Quattrocento Sans', sans-serif; font-size: 16px; font-weight: 400; line-height: 25px; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
  a { color: #b9b9b9; text-decoration: none; -webkit-transition: all 300ms ease; -moz-transition: all 300ms ease; -ms-transition: all 300ms ease; -o-transition: all 300ms ease; transition: all 300ms ease; }
- a:hover { color: #e66a78; }
- a:hover img { border: 5px solid #e66a78; }
- h2 { margin-bottom: 15px; color: #000000; font-size: 24px; font-weight: 300; line-height: 1.2em; }
+ a:hover { color: #333333; }
+ a img, a:hover img { border: none; }
+ h2 { margin-bottom: 15px; color: #000000; font-family: 'Quattrocento', serif; font-size: 24px; font-weight: 700; line-height: 1.2em; }
  div.paragraph, div.paragraph { margin-bottom: 10px; line-height: 1.5em; }
  p, div.paragraph { margin-bottom: 10px; line-height: 1.5em; }
  blockquote { font-style: italic; border-left: 4px solid #ddd; margin: 10px 0 10px 0; padding-left: 20px; line-height: 1.5; color: #888; }
@@ -34,18 +24,18 @@ ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, p, blockquote, fields
  .container { overflow: hidden; width: 100%; max-width: 960px; margin: 0 auto; }
  body.affix .cento-header .nav-wrap { position: fixed; top: 0; z-index: 15; border-bottom: 2px solid #f7f7f7; }
  #icontent .container { overflow: visible; }
- .cento-header { position: relative; z-index: 9; width: 100%; background: #f4f4f4; padding: 40px 0 0; box-sizing: border-box; }
- .cento-header .logo { margin-bottom: 20px; text-align: center;}
+ .cento-header { position: relative; z-index: 9; width: 100%; background: #ffffff; padding: 40px 0 0; box-sizing: border-box; }
+ .cento-header .logo { margin-bottom: 20px; }
  .cento-header .logo img { display: block; max-width: 200px; }
- .cento-header .logo #wsite-title { display: block; max-width: 500px; color: #e66a78; font-family: 'Quattrocento Sans', sans-serif; font-size: 27px;}
- .cento-header .logo, .cento-header .logo a { display: block; color: #000000; letter-spacing: .04em; font-family: 'Quattrocento Sans', sans-serif; font-size: 40px; font-weight: 700; line-height: normal; }
- .cento-header .nav-wrap {overflow: hidden; width: 100%; padding: 10px 0; background: #e66a78; box-sizing: border-box; backface-visibility: hidden; -webkit-backface-visibility: hidden; }
+ .cento-header .logo #wsite-title { display: block; max-width: 500px; }
+ .cento-header .logo, .cento-header .logo a { display: block; color: #000000; text-align: center; letter-spacing: .04em; font-family: 'Quattrocento Sans', sans-serif; font-size: 40px; font-weight: 700; line-height: normal; }
+ .cento-header .nav-wrap { overflow: hidden; width: 100%; padding: 10px 0; background: #ffffff; box-sizing: border-box; backface-visibility: hidden; -webkit-backface-visibility: hidden; }
  .cento-header .hamburger { display: none; }
- .nav { text-align: center;}
+ .nav { text-align: center; }
  .nav ul { display: inline-block; vertical-align: top; list-style-type: none; }
- .nav ul li {position: relative; display: inline-block; padding: 0 5px; }
- .nav ul li a {display: block; padding: 5px 15px; color: #f4f4f4; text-transform: uppercase; letter-spacing: .07em; font-family: 'Quattrocento Sans', sans-serif; font-size: 17px; font-weight: 700; line-height: 19px; -webkit-transition: all 300ms linear; -moz-transition: all 300ms linear; -ms-transition: all 300ms linear; -o-transition: all 300ms linear; transition: all 300ms linear; }
- .nav ul li#active > a.wsite-menu-item, .nav ul li > a.wsite-menu-item:hover {color: #e66a78; background-color: #f4f4f4; border-radius: 5px; font-weight: 400; }
+ .nav ul li { position: relative; display: inline-block; padding: 0 5px; }
+ .nav ul li a { display: block; padding: 5px 15px; color: #b9b9b9; text-transform: uppercase; letter-spacing: .07em; font-family: 'Quattrocento Sans', sans-serif; font-size: 14px; font-weight: 400; line-height: 19px; -webkit-transition: all 300ms linear; -moz-transition: all 300ms linear; -ms-transition: all 300ms linear; -o-transition: all 300ms linear; transition: all 300ms linear; }
+ .nav ul li#active > a.wsite-menu-item, .nav ul li > a.wsite-menu-item:hover { color: #333333; }
  .mobile-nav { display: none; }
  #wsite-menus .wsite-menu { background: #ffffff; border: 1px solid #b9b9b9; }
  #wsite-menus .wsite-menu li a { background: #ffffff; color: #b9b9b9; border: none; border-bottom: 1px solid #b9b9b9; text-transform: uppercase; letter-spacing: .07em; }
@@ -55,8 +45,8 @@ ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, p, blockquote, fields
  #wsite-menus .wsite-menu-arrow { color: transparent; font-size: 0; }
  #wsite-menus .wsite-menu-arrow:before { display: block; color: #b9b9b9; content: '\203A'; font-family: 'Quattrocento Sans', sans-serif; font-size: 24px; font-weight: normal; line-height: 11px; }
  .wsite-social { vertical-align: middle; }
- .wsite-social .wsite-social-item { width: 28px; height: 35px; margin-right: 5px; font-size: 2em; padding: 0.8em; box-sizing: border-box; }
- .wsite-background, .wsite-header-section { position: relative; background: url(theme/images/default-bg.jpg?1590027317) no-repeat; background-size: cover; background-position: center center; }
+ .wsite-social .wsite-social-item { width: 28px; height: 30px; margin-right: 5px; }
+ .wsite-background, .wsite-header-section { position: relative; background: url(theme/images/default-bg.jpg?1590125225) no-repeat; background-size: cover; background-position: center center; }
  .banner-wrap { position: relative; width: 100%; max-width: 1115px; margin: 20px auto 0; }
  .wsite-header-section:before { position: absolute; top: 0; left: 0; width: 100%; min-height: 100%; height: inherit; background: rgba(0,0,0,0.2); content: ' '; }
  .wsite-section-bg-color:before { display: none; }
@@ -73,8 +63,8 @@ ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, p, blockquote, fields
  .banner-wrap .banner .wsite-button-highlight:hover .wsite-button-inner, .banner-wrap .banner .wsite-button-large.wsite-button-highlight:hover .wsite-button-inner { background: #ffffff; color: #333333 !important; border: 2px solid #ffffff; }
  .content-wrap { background: #ffffff; }
  .content-wrap .container { padding: 40px 20px; box-sizing: border-box; }
- .footer-wrap { height:100%; width: 100%; background: #e66a78; }
- .footer-wrap .container { width: 100%; overflow: initial; color: #f4f4f4; margin-top: 1em; margin-bottom: 1em; font-weight: 700; font-family: 'Quattrocento Sans', sans-serif; }
+ .footer-wrap { width: 100%; background: #ffffff; border-top: 2px solid #f7f7f7; }
+ .footer-wrap .container { width: 100%; overflow: initial; }
  .footer-wrap .wsite-footer { width: 960px; margin: 0 auto; padding: 40px 20px 20px; box-sizing: border-box; }
  .footer-wrap h2 { font-size: 16px; margin-bottom: 10px; }
  .footer-wrap div.paragraph, .footer-wrap div.paragraph { font-size: 12px; }
@@ -99,7 +89,7 @@ ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, p, blockquote, fields
  .wsite-form-radio-container { margin-bottom: 10px; }
  .wsite-form-input, .wsite-search-element-input { margin-bottom: 10px; padding: 10px !important; background: #fafafa; color: #444444; border: 1px solid #b9b9b9; border-radius: 1px; font-family: 'Quattrocento Sans', sans-serif; font-size: 14px; font-weight: 400; line-height: normal; -webkit-transition: all 300ms ease; -moz-transition: all 300ms ease; -ms-transition: all 300ms ease; -o-transition: all 300ms ease; transition: all 300ms ease; }
  .wsite-form-input:focus, .wsite-form-input--focus, .wsite-search-element-input:focus { border: 1px solid #777777; }
- .form-select, .wsite-form-field select, .wsite-com-product-option-groups select { height: 40px; padding: 10px; background: #fafafa url(theme/images/select-dropdown.png?1590027317) 97% center no-repeat; color: #333333; border: 1px solid #b9b9b9; border-radius: 1px; font-family: 'Quattrocento Sans', sans-serif; font-size: 14px; font-weight: 400; line-height: normal; }
+ .form-select, .wsite-form-field select, .wsite-com-product-option-groups select { height: 40px; padding: 10px; background: #fafafa url(theme/images/select-dropdown.png?1590125225) 97% center no-repeat; color: #333333; border: 1px solid #b9b9b9; border-radius: 1px; font-family: 'Quattrocento Sans', sans-serif; font-size: 14px; font-weight: 400; line-height: normal; }
  .form-select:focus, .wsite-form-field select:focus, .wsite-com-product-option-groups select:focus { border: 1px solid #777777; }
  .formlist, .wsite-editor .formlist { min-height: inherit; }
  .wsite-search-element-submit, .wsite-editor .wsite-search-element-submit { top: 12px; margin-top: 0; }
@@ -168,7 +158,7 @@ ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, p, blockquote, fields
  .footer-wrap td.wsite-multicol-col:last-child { width: 100% !important; }
  }
  @media screen and (max-width: 767px) {
- body { background-color: #f4f4f4, background-size: initial; background-position: top center; background-attachment: inherit; font-size: 15px; }
+ body { background-size: initial; background-position: top center; background-attachment: inherit; font-size: 15px; }
  body.wsite-checkout-page .banner-wrap, body.wsite-native-mobile-editor .banner-wrap { margin-top: 0; }
  body.wsite-checkout-page .cento-header, body.wsite-native-mobile-editor .cento-header { position: relative !important; }
  body.wsite-checkout-page .no-header-page .content-wrap, body.wsite-native-mobile-editor .no-header-page .content-wrap { margin-top: 0; }
@@ -182,10 +172,10 @@ ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, p, blockquote, fields
  body.nav-open .cento-header .hamburger span:after { top: -1px; -webkit-transform: rotate(-45deg); -moz-transform: rotate(-45deg); -ms-transform: rotate(-45deg); -o-transform: rotate(-45deg); transform: rotate(-45deg); }
  .cento-header { position: fixed; top: 0; left: 0; z-index: 9; height: 50px; padding: 10px 0; border-bottom: 2px solid #f7f7f7; backface-visibility: hidden; -webkit-backface-visibility: hidden; }
  .cento-header .logo { display: table; overflow-y: hidden; max-width: calc(100vw - 100px); height: 30px; margin: 0 auto; }
- .cento-header .logo .wsite-logo {display: table-cell; vertical-align: middle; }
+ .cento-header .logo .wsite-logo { display: table-cell; vertical-align: middle; }
  .cento-header .logo a { font-size: 18px; line-height: 30px; }
  .cento-header .logo a img { height: auto; max-height: 30px; margin-top: 0 !important; margin-left: 0 !important; }
- .cento-header #wsite-title {display: block; font-size: 12px !important; line-height: 1 !important; }
+ .cento-header #wsite-title { display: block; font-size: 18px !important; line-height: 1 !important; }
  .cento-header .hamburger { position: absolute; z-index: 6; top: 0; left: 5px; display: inline-block; width: 30px; height: 30px; padding: 10px; -webkit-transition: all 300ms ease-in-out; -moz-transition: all 300ms ease-in-out; -ms-transition: all 300ms ease-in-out; -o-transition: all 300ms ease-in-out; transition: all 300ms ease-in-out; }
  .cento-header .hamburger span, .cento-header .hamburger span:before, .cento-header .hamburger span:after { position: relative; display: block; width: 22px; height: 2px; background: #3e3e3e; content: ''; -webkit-transition: all 300ms ease; -moz-transition: all 300ms ease; -ms-transition: all 300ms ease; -o-transition: all 300ms ease; transition: all 300ms ease; }
  .cento-header .hamburger span { top: 9px; left: 4px; margin: 5px 0; }
@@ -197,7 +187,7 @@ ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, p, blockquote, fields
  .mobile-nav ul li { float: none; display: block !important; margin: 0; padding: 0; border: none; text-align: center; }
  .mobile-nav ul li a.wsite-menu-item, .mobile-nav ul li a.wsite-menu-subitem { padding: 10px 0; -webkit-transition: all 300ms ease; -moz-transition: all 300ms ease; -ms-transition: all 300ms ease; -o-transition: all 300ms ease; transition: all 300ms ease; }
  .mobile-nav ul li .wsite-menu-wrap { display: block !important; overflow: hidden; max-height: 0; -webkit-transition: all 500ms ease-in-out 250ms; -moz-transition: all 500ms ease-in-out 250ms; -ms-transition: all 500ms ease-in-out 250ms; -o-transition: all 500ms ease-in-out 250ms; transition: all 500ms ease-in-out 250ms; }
- .mobile-nav ul li .wsite-menu-wrap li.wsite-nav-current a { color: #333333;}
+ .mobile-nav ul li .wsite-menu-wrap li.wsite-nav-current a { color: #333333; }
  .mobile-nav ul li .wsite-menu-wrap .wsite-menu-arrow { display: none; }
  .mobile-nav ul li.wsite-menu-item-wrap#active > a.wsite-menu-item, .mobile-nav ul li.wsite-menu-item-wrap > a.wsite-menu-item:hover, .mobile-nav ul li.wsite-menu-subitem-wrap > a.wsite-menu-subitem:hover { color: #333333; }
  .mobile-nav ul li.has-submenu > span.icon-caret { position: absolute; top: 0; right: 10px; display: block; width: 20px; height: 10px; padding: 5px 10px; cursor: pointer; -webkit-transition: all 300ms ease-in-out; -moz-transition: all 300ms ease-in-out; -ms-transition: all 300ms ease-in-out; -o-transition: all 300ms ease-in-out; transition: all 300ms ease-in-out; }
@@ -267,7 +257,7 @@ ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, p, blockquote, fields
  #wsite-com-checkout-list tbody td:first-child, #wsite-com-checkout-summary-list tbody td:first-child { width: 0; padding: 0; }
  #wsite-com-checkout-list .wsite-com-checkout-item-details-inner, #wsite-com-checkout-summary-list .wsite-com-checkout-item-details-inner { padding-left: 0; }
  }
-.w-sitebackground-3 {background-color: #f4f4f4; }
+
 div.paragraph ul, div.paragraph ol { padding-left: 3em !important; margin: 5px 0 !important; }
 div.paragraph li { padding-left: 5px !important; margin: 3px 0 0 !important; }
 div.paragraph ul, div.paragraph ul li { list-style: disc outside !important; }
