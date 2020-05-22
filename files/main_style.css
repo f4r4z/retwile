@@ -1,7 +1,4 @@
- @font-face {
-  font-family: 'Quattrocento Sans';
-  src: url('/Quattrocento_Sans/QuattrocentoSans-Regular.ttf') format("truetype");
-}
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, div.paragraph, blockquote, fieldset, input { margin: 0; padding: 0; }
 ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, p, blockquote, fieldset, input { margin: 0; padding: 0; }
